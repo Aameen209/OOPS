@@ -1,5 +1,4 @@
-
-import com.javatpoint.Student;
+package test1;
 // Save this as test1.java
 class Test1 { // Renamed to follow Java naming conventions (CamelCase)
     String color;
@@ -18,19 +17,19 @@ class Student {
     String name;
     int age;
 
-    // public void printInfo() {
-    //     System.out.println(this.name);
-    //     System.out.println(this.age);
-    // }
+    public void printInfo() {
+        System.out.println(this.name);
+        System.out.println(this.age);
+    }
 
-    // Student(Student s2) {
-    //     this.name = s2.name;
-    //     this.age = s2.age;
-    // }
+    Student(Student s2) {
+        this.name = s2.name;
+        this.age = s2.age;
+    }
 
-    // Student() {
+    Student() {
 
-    // }
+    }
 
     public void printInfo(String name){
         System.out.println(name);
